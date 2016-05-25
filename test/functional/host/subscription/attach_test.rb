@@ -1,5 +1,5 @@
-require File.join(File.dirname(__FILE__), '../../test_helper')
-require File.join(File.dirname(__FILE__), '../host_helpers')
+require_relative '../../test_helper'
+require_relative '../../helpers/host_helpers'
 
 describe 'host subscription attach' do
   include HostHelpers

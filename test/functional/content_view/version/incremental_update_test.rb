@@ -1,7 +1,6 @@
-require File.join(File.dirname(__FILE__), '../../test_helper')
-require File.join(File.dirname(__FILE__), '../../organization/organization_helpers')
-require File.join(File.dirname(__FILE__),
-                  '../../lifecycle_environment/lifecycle_environment_helpers')
+require_relative '../../test_helper'
+require_relative '../../helpers/organization_helpers'
+require_relative '../../helpers/lifecycle_environment_helpers'
 
 describe 'content-view version incremental-update' do
   include OrganizationHelpers

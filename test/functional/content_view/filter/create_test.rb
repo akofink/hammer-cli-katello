@@ -1,5 +1,5 @@
 require_relative '../../test_helper'
-require_relative '../../repository/repository_helpers'
+require_relative '../../helpers/repository_helpers'
 
 describe 'content-view filter create' do
   include RepositoryHelpers

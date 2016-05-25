@@ -1,4 +1,4 @@
-require File.join(File.dirname(__FILE__), '../test_helper')
+require_relative '../test_helper'
 
 require 'hammer_cli/testing/output_matchers'
 require 'hammer_cli/testing/command_assertions'

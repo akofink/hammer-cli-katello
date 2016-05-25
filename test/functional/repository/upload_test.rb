@@ -1,6 +1,6 @@
-require File.join(File.dirname(__FILE__), '../test_helper')
-require File.join(File.dirname(__FILE__), '../product/product_helpers')
-require File.join(File.dirname(__FILE__), './repository_helpers')
+require_relative '../test_helper'
+require_relative '../helpers/product_helpers'
+require_relative '../helpers/repository_helpers'
 
 describe 'upload repository' do
   include ProductHelpers

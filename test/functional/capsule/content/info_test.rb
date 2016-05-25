@@ -1,5 +1,5 @@
-require File.join(File.dirname(__FILE__), '../../test_helper')
-require File.join(File.dirname(__FILE__), './capsule_content_helpers')
+require_relative '../../test_helper'
+require_relative '../../helpers/capsule_content_helpers'
 
 describe 'capsule content info' do
   include CapsuleContentHelpers

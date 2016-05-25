@@ -1,5 +1,5 @@
-require File.join(File.dirname(__FILE__), '../test_helper')
-require File.join(File.dirname(__FILE__), 'product_helpers')
+require_relative '../test_helper'
+require_relative '../helpers/product_helpers'
 
 describe "listing products" do
   include ProductHelpers
