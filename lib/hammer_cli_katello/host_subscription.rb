@@ -20,7 +20,7 @@ module HammerCLIKatello
       failure_message _("Failed to register host")
 
       build_options do |o|
-        o.expand(:all).except(:products)
+        o.expand(:all).except(:products).including(:organizations)
         o.without(:facts, :installed_products)
       end
     end
